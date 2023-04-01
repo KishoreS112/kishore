@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="myPortifolio.css" rel="stylesheet">
+</head>
+<body>
+    <div class="whole">  
+    <nav>
+    <div class="logo">
+        <a href="#">Kishore</a>
+        </div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#education">About</a></li>
+                <li><a href="#lang">Skills</a></li>
+                <li><a href="#project1">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+</nav>
+
+<div class="name">
+ <h1> Hello</h1>
+<h2>  I'm Kishore</h2>
+<p>#Frontend Developer </p>
+</div>
+
+
+<div id="education">
+<h4>Education</h4>
+
+    <h2>B.Tech information technology</h2>
+          <p>Karpagam College of engineering</p>
+               <div class="dot">
+                 <h5>2019-&nbsp;Current</h5>
+                    <h3>Scored&nbsp;8.44&nbsp;</h3>
+               </div>
+</div>
+<h1>Programming</h1>    
+
+                <div id="lang">
+                    <div class="grid1">
+                        <h1>Languages</h1>
+                    <img src="c.png">
+                </div>
+                <div class="grid2">
+                    <h1>Frontend</h1>
+                    <img src="frontend.jpg">
+                </div>
+
+                <div class="grid3">
+                    <h1>Database</h1>
+                 <img src="database.png">
+                </div>
+               </div>
+               <h1>Projects</h1>
+    <div id="project1">
+        <div class="elearn">
+            <h1>E-Learning</h1>
+            <img src="elearn.jpg">
+            <p>A learning system based on formalised teaching but with the help of electronic resources is known as E-learning. While teaching can be based in or out of the classrooms, the use of computers and the Internet forms the major component of E-learning</p>
+            <p> E-learning Using Html and Css A static
+                website for an e-learning platform for the easer access and the various courses and upliftment of the user’s knowledege</p>
+        </div>
+            <div class="prison">
+                   <h1>Prison</h1>    
+            <img src="prison.jpg">
+           <p>Prison management system project is developed using JavaScript, CSS, HTML, and JavaScript. Talking about the project, it has all the essential features required for the management of a prison and its details. This project contains the admin side, the user side and the police side The Admin plays the main role in the management of the system.</p>
+        </div>
+        </div>
+        </div>
+ <h1>contact Me</h1>
+ <div  id="contact">
+    <div class="contact-form">
+        <label>Name:</label>
+        <input type="text" class="name" required>
+        <br>
+        <label>E-Mail:</label>
+        <input type="text" class="mail" required>
+        <br>
+        <label>Phone:</label>
+        <input type="text" class="phone" required>
+         <br>
+         <label>Comment Here:</label>
+         <br>
+         <div id="textarea">
+         <textarea>
+
+         </textarea>
+    </div>
+    </div>
+    <button type="submit"> Send</button>
+ </div>
+
+
+    
+            <div class="container">
+                <h4>@kishore</h4>
+                <a href="https://www.linkedin.com/in/kishore-s-982a59225/"><small style="color:grey" class="fa fa-lg fa-linkedin pull-right">  </small></a>
+            </div>
+
+</div>
+<script>
+    const menu=document.querySelector('.menu')
+    const menulist=document.querySelector('nav ul')
+     menu.addEventListener('click',()=>
+     {
+        menulist.classList.toggle('showmenu')
+     })
+</script>
+</body>
+</html>
